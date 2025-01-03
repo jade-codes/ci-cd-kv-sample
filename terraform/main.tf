@@ -11,6 +11,12 @@ terraform {
     }
   }
 }
+
 provider "azurerm" {
   features {}
+}
+
+resource "azurerm_resource_group" "ci_cd_key_vault" {
+  name     = "ci-cd-key-vault-rg"
+  location = "UK South"
 }
