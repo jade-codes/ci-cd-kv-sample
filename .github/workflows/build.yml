@@ -21,3 +21,6 @@ jobs:
 
       - name: Run Terraform Validate
         run: terraform validate
+
+      - name: Run Az Version
+        run: az --version
