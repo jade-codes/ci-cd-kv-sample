@@ -24,3 +24,6 @@ jobs:
 
       - name: Run Az Version
         run: az --version
+
+      - name: Run dotnet version
+        run: dotnet --version
